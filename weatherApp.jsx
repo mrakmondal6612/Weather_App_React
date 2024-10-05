@@ -20,8 +20,10 @@ export default function WeathereApp() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h3>Weather App By Mr. AK</h3>
-      <SearchBox update={update}/>
+      <div style={{ marginRight: "35px" }}>
+        <h3>Weather App By Mr. AK</h3>
+        <SearchBox update={update} />
+      </div
 
       <InfoBox info={weather}/>
     </div>
